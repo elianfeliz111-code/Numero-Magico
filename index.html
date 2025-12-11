@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Mágico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Juego: Número Mágico</h1>
+
+    <div class="game-container">
+        <p>Ingresa un número del 1 al 10:</p>
+        <input type="number" id="userNumber" min="1" max="10">
+        <br>
+        <button onclick="checkNumber()">Intentar</button>
+        <button onclick="newGame()">Nuevo Juego</button>
+        <p id="message"></p>
+        <p id="attempts"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
